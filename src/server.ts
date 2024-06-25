@@ -8,4 +8,6 @@ app.use(express.json());
 
 app.use('/categories',categoriesRoutes);
 
+
+// basicamente uso o express para criar um servidor, middleware e caminho da rota, as rotas para definir pra onde será direcionado minha chamada
 app.listen(3333, () => console.log("server is running"));

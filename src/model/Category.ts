@@ -13,4 +13,6 @@ class Category {
     }
 }
 
+//classe que define o molde da Category com interface para 
+
 export {Category}
